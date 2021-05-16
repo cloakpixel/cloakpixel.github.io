@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: "Redaction";
+    src: url("/Redaction_2_001/webfonts/Redaction_10-Bold.woff2") format("woff2"), url("/Redaction_2_001/webfonts/Redaction-Regular.woff2")  format("woff2");
+}
+
+body, html {
+    height: 100%;
+	margin: 0
+}
+
+header {
+	width: 100%;
+	top: 0;
+	padding: 1.5em;
+	position: fixed;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+header {
+	z-index: 1000;
+}
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 8.5em;
+	letter-spacing: .85em;
+	text-align: center;
+}
+
+.site-logo {
+	position: relative;
+	display: block;
+	float: left;
+	width: 3.1em;
+}
+.site-logo img {
+	width: 3.1em;
+}
+.logo {
+	opacity: 1;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url(../images/pix_8SNNqkbqPXc.jpg);
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Place text in the middle of the image */
+.hero-content {
+	font-family: 'Redaction_10-Bold';
+	color: #fff;
+	position: absolute;
+	z-index: 20000;
+	padding-top: 4em;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+
+}
+h2 {
+	font-weight: 100;
+	font-size: 2em;
+	line-height: 2.2;
+	margin-bottom: -.35em;
+	padding-top: 13%;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+}
+h1 {
+	margin-bottom: 1.5%;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
+	margin-left: .7em;
+}
+h3 {
+	font-size: 1.5em;
+	font-weight: 100;
+	line-height: 2.75;
+	letter-spacing: .35em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Smartphones (portrait and landscape) ----------- */
+	h1 {font-size: 2.5em;}
+	h2 {font-size: 1em;}
+}
+
+@media only screen
+and (min-width : 321px) {
+/* Smartphones (landscape) ----------- */
+	h1 {font-size: 2.5em;}
+	h2 {font-size: 1em;}
+}
+
+
+@media only screen
+and (max-width : 320px) {
+/* Smartphones (portrait) ----------- */
+	h1 {font-size: 6.5em;}
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* iPads (portrait and landscape) ----------- */
+	h1 {font-size: 8.5em;}
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* iPads (landscape) ----------- */
+	h1 {font-size: 8.5em;}
+}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* iPads (portrait) ----------- */
+	h1 {font-size: 8em;}
+}
+
+@media only screen
+and (min-width : 1200px) {
+/* Desktops and laptops ----------- */
+	h1 {font-size: 8.5em;}
+}
+
+@media only screen
+and (min-width : 1700px) {
+/* Large screens ----------- */
+	h1 {font-size: 10.5em;}
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* iPhone 4 ----------- */
+
+}
