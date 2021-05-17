@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Redaction";
-    src: url("/Redaction_2_001/webfonts/Redaction_10-Bold.woff2") format("woff2"), url("/Redaction_2_001/webfonts/Redaction-Regular.woff2")  format("woff2");
+    src: url(../Redaction_2_001/webfonts/Redaction_70-Bold.woff2) format("woff2"), url(../Redaction_2_001/webfonts/Redaction-Regular.woff2)  format("woff2");
 }
 
 body, html {
@@ -22,7 +22,7 @@ header {
 img {
 	width: 100%;
 	max-width: 100%;
-	height: auto;
+	
 	vertical-align: middle;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
@@ -56,22 +56,23 @@ h1 {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url(../images/pix_8SNNqkbqPXc.jpg);
+    background-image: url(../images/pxltdmVPkezDvRy8.jpg);
 
     /* Set a specific height */
     height: 100%;
 
     /* Position and center the image to scale nicely on all screens */
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
 
 /* Place text in the middle of the image */
 .hero-content {
-	font-family: 'Redaction_10-Bold';
+	font-family: 'Redaction_70-Bold';
 	color: #fff;
 	position: absolute;
 	z-index: 20000;
