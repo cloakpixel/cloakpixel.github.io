@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/twenty-twenty/site/"
+baseURL = "https://github.com/cloakpixel/cloakpixel.github.io"
 title = "Cloak & Pixel"
 theme = "twenty-twenty-hugo"
 languageName = "En"
