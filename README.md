@@ -7,5 +7,5 @@ This a [Hugo](https://gohugo.io/getting-started/quick-start/) using the [Twenty 
 To test development changes locally, navigate to the root of the reposito and run:
 
 ```bash
-hugo server --themesDir .
+hugo server -D
 ```

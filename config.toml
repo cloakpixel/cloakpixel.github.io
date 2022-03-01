@@ -9,11 +9,11 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+# disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = [] # disable language from here
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+# googleAnalytics = "" # example : UA-123-45
 
 
 ############################## Output ###############################
@@ -76,7 +76,7 @@ favicon = "images/favicon.png"
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 
 # banner
