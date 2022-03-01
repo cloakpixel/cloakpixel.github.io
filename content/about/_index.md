@@ -10,4 +10,4 @@ In 2021 a team of engineers and researchers concerned about the ethical ramifica
 
 - Tackle the problem space of FDRMs more broadly
 - Develop additional interventions to advocate for responsible use of FDRMs
-- Define risks in the space and make them more transparent so that ordinary people are aware of the issues and can make better decisions
+- Define risks in the space and make them more transparent so that ordinary people could be aware of the issues and make better decisions
